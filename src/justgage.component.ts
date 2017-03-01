@@ -4,8 +4,12 @@ declare var JustGage: any;
 
 @Component({
   selector: 'justgage',
-  templateUrl: './justgage.component.html',
-  styleUrls: ['./justgage.component.scss']
+  template: `
+  <style>
+    :host {
+      display: block;
+    }
+  </style>`
 })
 export class JustgageComponent implements OnInit, OnChanges {
   justgage: any;

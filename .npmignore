@@ -1,35 +1,46 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+.gitignore
+.vscode
+node_modules
+coverage
+npm-debug*
+packagedev.json
+packagepublish.json
+prep.js
+#/src
+karma*.*
+.travis.yml
+systemjs.config.js
+tsconfig.json
+tsconfig-build.json
+tslint.json
+PUBLISHING.md
+CONTRIBUTING.md
+.editorconfig
 
-# compiled output
-/tmp
-
-# dependencies
-/node_modules
-/bower_components
-
-# IDEs and editors
-/.idea
-/.vscode
-.project
-.classpath
-*.launch
-.settings/
-
-# misc
-/.sass-cache
-/connect.lock
-/coverage/*
-/libpeerconnection.log
+# Node
+node_modules/*
 npm-debug.log
-testem.log
-/typings
 
-# e2e
-/e2e/*.js
-/e2e/*.map
+# DO NOT IGNORE TYPESCRIPT FILES FOR NPM
+# TypeScript
+# *.js
+# *.map
+# *.d.ts
 
-#System Files
-.DS_Store
+# JetBrains
+.idea
+.project
+.settings
+.idea/*
+*.iml
+
+# VS Code
+.vscode/*
+
+# Windows
 Thumbs.db
+Desktop.ini
 
-/reports/
+# Mac
+.DS_Store
+**/.DS_Store
