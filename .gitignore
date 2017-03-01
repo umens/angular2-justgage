@@ -184,12 +184,8 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/visualstudiocode,sublimetext,node,composer,linux,macos,osx,windows,git
 
-## lib specific
-lib/
-
 *.ngfactory.*
-ngx-magicsearch.js*
-ngx-magicsearch.d.ts
+*.ngsummary.*
 src/**/*.js*
 src/**/*.d.ts
 
@@ -198,9 +194,9 @@ node_modules/*
 npm-debug.log
 
 # TypeScript
-*.js
-*.map
-*.d.ts
+#*.js
+#*.map
+#*.d.ts
 
 # JetBrains
 .idea
